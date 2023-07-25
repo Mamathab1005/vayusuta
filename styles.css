@@ -1,0 +1,83 @@
+/* Reset some default styles and apply general styling */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+    background-color: #444;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.hero-image {
+    /* Add CSS styling for the hero image here */
+    /* For example: background-image: url('path/to/hero-image.jpg'); */
+}
+
+.hero-text {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.package-card {
+    /* Add CSS styling for tour package cards here */
+}
+
+.testimonial {
+    /* Add CSS styling for customer testimonials here */
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.hero-image {
+    text-align: center;
+}
+
+.hero-image img {
+    display: block; /* Ensure the image is a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
